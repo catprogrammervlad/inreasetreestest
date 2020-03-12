@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 const Header = styled.header`
 	background: rgba(0, 0, 0, ${(props) => props.blackoutHeader});
+	width: 100%;
 	height: 100vh;
 	position: relative;
 `;
@@ -61,10 +62,8 @@ const SubHeader1 = styled.div`
 `;
 
 const SubHeader2 = styled.div`
-	display: flex;
-	justify-content: space-around;
-	align-content: center;
-	align-items: center;
+	
+
 	background: rgba(0, 0, 0, 0.8);
 
 	width: 100%;
@@ -137,6 +136,13 @@ const Logo1 = styled.div`
 	@media (max-width: 1500px) {
 		font-size: 35px;
 	}
+	@media (max-width: 1100px) {
+		font-size: 30px;
+	}
+
+	@media (max-width: 750px) {
+		font-size: 25px;
+	}
 `;
 
 const Logo2 = styled.div`
@@ -145,7 +151,22 @@ const Logo2 = styled.div`
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-size: 30px;
 	font-weight: 340;
-	margin-left: -100px;
+
+	position: absolute;
+	transform: translate(0, -50%);
+	top: 50%;
+	left: 8%;
+
+	@media (max-width: 1500px) {
+		font-size: 25px;
+	}
+	@media (max-width: 1100px) {
+		font-size: 23px;
+	}
+
+	@media (max-width: 750px) {
+		font-size: 23px;
+	}
 `;
 
 const NavMenu1 = styled.ul`
@@ -209,24 +230,71 @@ const NavMenu1 = styled.ul`
 `;
 
 const Flag1 = styled.div`
-	display: inline-block;
 	background: url('flag.png');
+	background-size: cover;
 	width: 32px;
 	height: 21px;
 
 	position: absolute;
-	transform: translate(-50%, -50%);
+	transform: translate(50%, -50%);
 	top: 50%;
-	right: 8%;
+	right: 9%;
+
+	@media (max-width: 1100px) {
+		top: 50%;
+		right: 50%;
+	}
+
+	@media (max-width: 750px) {
+		top: 50%;
+		right: 20%;
+		width: 28px;
+		height: 18px;
+	}
 `;
 
 const Flag2 = styled.div`
-	margin-left: -45px;
 
-	display: inline-block;
+
 	background: url('flag.png');
+	background-size: cover;
 	width: 32px;
 	height: 21px;
+
+	position: absolute;
+	transform: translate(50%, -50%);
+	top: 50%;
+	right: 50%;
+
+	@media (max-width: 1100px) {
+		top: 50%;
+		right: 50%;
+	}
+
+	@media (max-width: 750px) {
+		top: 50%;
+		right: 20%;
+		width: 28px;
+		height: 18px;
+	}
+`;
+
+const GamburgerMenu1 = styled.div`
+	background: url('GamburgerMenu.png');
+	background-size: cover;
+	width: 25px;
+	height: 20px;
+
+	display: none;
+
+	@media (max-width: 1100px) {
+		display: block;
+	}
+
+	position: absolute;
+	transform: translate(50%, -50%);
+	top: 50%;
+	right: 11%;
 `;
 
 const GamburgerMenu2 = styled.div`
@@ -234,6 +302,16 @@ const GamburgerMenu2 = styled.div`
 	background-size: cover;
 	width: 25px;
 	height: 20px;
+
+	position: absolute;
+	transform: translate(50%, -50%);
+	top: 50%;
+	right: 10%;
+
+	@media (max-width: 1100px) {
+		top: 50%;
+		right: 11%;
+	}
 `;
 
 const BackgroundVideo = styled.video`
@@ -243,7 +321,7 @@ const BackgroundVideo = styled.video`
 	min-width: 100%;
 	min-height: 100%;
 	background-position: right top;
-	width: auto;
+	width: 100;
 	height: auto;
 	z-index: -1;
 `;
@@ -264,6 +342,17 @@ const Heading = styled.h1`
 	font-size: 64px;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-weight: 300;
+
+	@media (max-width: 1500px) {
+		font-size: 59px;
+	}
+	@media (max-width: 1100px) {
+		font-size: 52px;
+	}
+
+	@media (max-width: 750px) {
+		font-size: 42px;
+	}
 `;
 
 const SubHeading = styled.h2`
@@ -273,6 +362,17 @@ const SubHeading = styled.h2`
 	font-size: 44px;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-weight: 300;
+
+	@media (max-width: 1500px) {
+		font-size: 39px;
+	}
+	@media (max-width: 1100px) {
+		font-size: 32px;
+	}
+
+	@media (max-width: 750px) {
+		font-size: 22px;
+	}
 `;
 
 const Arrow = styled.div`
@@ -343,6 +443,7 @@ const header = (props) => (
 				</li>
 			</NavMenu1>
 			<Flag1 />
+			<GamburgerMenu1 />
 		</SubHeader1>
 
 		<SubHeader2 activate2={props.activate2}>

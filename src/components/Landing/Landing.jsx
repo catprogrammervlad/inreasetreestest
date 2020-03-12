@@ -60,7 +60,14 @@ class landing extends Component {
 					opacityHeader={this.state.opacityHeader}
 					blackoutHeader={this.state.blackoutHeader}
 				/>
-				<Block1 activate={this.state.Block1} />
+
+				<Block2 activate={this.state.Block2} />
+				<Block2 activate={this.state.Block2} />
+				<Block2 activate={this.state.Block2} />
+				<Block2 activate={this.state.Block2} />
+				<Block2 activate={this.state.Block2} />
+				<Block2 activate={this.state.Block2} />
+				{/* <Block1 activate={this.state.Block1} />
 				<Block2 activate={this.state.Block2} />
 				<Block1 activate={this.state.Block1} />
 				<Block2 activate={this.state.Block2} />
@@ -69,7 +76,7 @@ class landing extends Component {
 				<Block1 activate={this.state.Block1} />
 				<Block2 activate={this.state.Block2} />
 				<Block1 activate={this.state.Block1} />
-				<Block2 activate={this.state.Block2} />
+				<Block2 activate={this.state.Block2} /> */}
 			</>
 		);
 	}
