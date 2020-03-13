@@ -122,7 +122,7 @@ const SubHeader2 = styled.div`
 const Logo1 = styled.div`
 	display: inline-block;
 	color: #fff;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 	font-size: 38px;
 	font-weight: 340;
 
@@ -148,7 +148,7 @@ const Logo1 = styled.div`
 const Logo2 = styled.div`
 	display: inline-block;
 	color: #fff;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 	font-size: 30px;
 	font-weight: 340;
 
@@ -194,7 +194,7 @@ const NavMenu1 = styled.ul`
 		display: block;
 
 		color: rgba(255, 255, 255, 0.7);
-		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 		font-size: 20px;
 		font-weight: 200;
 		text-decoration: none;
@@ -340,8 +340,8 @@ const Heading = styled.h1`
 	color: #fff;
 	text-align: center;
 	font-size: 64px;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	font-weight: 300;
+	/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+	font-weight: 200;
 
 	@media (max-width: 1500px) {
 		font-size: 59px;
@@ -360,8 +360,8 @@ const SubHeading = styled.h2`
 	color: #fff;
 	text-align: center;
 	font-size: 44px;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	font-weight: 300;
+	/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+	font-weight: 200;
 
 	@media (max-width: 1500px) {
 		font-size: 39px;
@@ -393,7 +393,7 @@ const DonateButton = styled.button`
 	left: 50%;
 	top: 75%;
 
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 	font-weight: 300;
 	font-size: 25px;
 	letter-spacing: 2px;
