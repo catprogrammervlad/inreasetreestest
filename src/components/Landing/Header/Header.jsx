@@ -26,11 +26,11 @@ const SubHeader1 = styled.div`
 
 	${(props) =>
 		props.activate1 === 1 &&
-		'animation-name: hideSubHeader; animation-duration: 1.5s;animation-fill-mode: forwards;'}
+		'animation-name: hideSubHeader; animation-duration: 1s;animation-fill-mode: forwards;'}
 
 	${(props) =>
 		props.activate1 === 2 &&
-		'animation-name: showSubHeader; animation-duration: 1.5s;animation-fill-mode: forwards;'}
+		'animation-name: showSubHeader; animation-duration: 1s;animation-fill-mode: forwards;'}
 
 	
 	@keyframes hideSubHeader {
@@ -80,15 +80,15 @@ const SubHeader2 = styled.div`
 
 	${(props) =>
 		props.activate2 === 0 &&
-		'animation-name: hideSubHeader; animation-duration: 1.5s;animation-fill-mode: forwards;top: -60px;'}
+		'animation-name: hideSubHeader; animation-duration: 1s;animation-fill-mode: forwards;top: -60px;'}
 
 	${(props) =>
 		props.activate2 === 1 &&
-		'animation-name: hideSubHeader; animation-duration: 1.5s;animation-fill-mode: forwards;'}
+		'animation-name: hideSubHeader; animation-duration: 1s;animation-fill-mode: forwards;'}
 
 	${(props) =>
 		props.activate2 === 2 &&
-		'animation-name: showSubHeader; animation-duration: 1.5s;animation-fill-mode: forwards;'}
+		'animation-name: showSubHeader; animation-duration: 1s;animation-fill-mode: forwards;'}
 
 	
 	@keyframes hideSubHeader {
