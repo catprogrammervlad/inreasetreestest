@@ -123,8 +123,9 @@ const Logo1 = styled.div`
 	display: inline-block;
 	color: #fff;
 	/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-	font-size: 38px;
-	font-weight: 340;
+	font-size: 34px;
+	font-weight: 300;
+	letter-spacing: 5px;
 
 	/* border: 1px solid white; */
 
@@ -195,11 +196,11 @@ const NavMenu1 = styled.ul`
 
 		color: rgba(255, 255, 255, 0.7);
 		/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-		font-size: 20px;
+		font-size: 18px;
 		font-weight: 200;
 		text-decoration: none;
 
-		margin-left: 108px;
+		margin-left: 40px;
 		padding: auto;
 
 		border-bottom: 5px solid rgba(0, 0, 0, 0);
@@ -339,9 +340,9 @@ const BlockHeading = styled.div`
 const Heading = styled.h1`
 	color: #fff;
 	text-align: center;
-	font-size: 64px;
+	font-size: 90px;
 	/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-	font-weight: 200;
+	font-weight: 300;
 
 	@media (max-width: 1500px) {
 		font-size: 59px;
@@ -359,7 +360,7 @@ const SubHeading = styled.h2`
 	margin-top: 15px;
 	color: #fff;
 	text-align: center;
-	font-size: 44px;
+	font-size: 50px;
 	/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 	font-weight: 200;
 
