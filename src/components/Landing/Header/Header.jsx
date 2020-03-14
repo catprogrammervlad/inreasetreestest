@@ -16,7 +16,7 @@ const SubHeader1 = styled.div`
 	background: rgba(0, 0, 0, 0.3);
 
 	width: 100%;
-	height: 85px;
+	height: 75px;
 
 	position: fixed;
 
@@ -125,7 +125,7 @@ const Logo1 = styled.div`
 	/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 	font-size: 34px;
 	font-weight: 300;
-	letter-spacing: 5px;
+	letter-spacing: -1px;
 
 	/* border: 1px solid white; */
 
@@ -189,7 +189,7 @@ const NavMenu1 = styled.ul`
 	}
 
 	li a {
-		height: 85px;
+		height: 75px;
 		text-align: center;
 		line-height: 80px;
 		display: block;
@@ -197,7 +197,7 @@ const NavMenu1 = styled.ul`
 		color: rgba(255, 255, 255, 0.7);
 		/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 		font-size: 18px;
-		font-weight: 200;
+		font-weight: 300;
 		text-decoration: none;
 
 		margin-left: 40px;
@@ -205,7 +205,7 @@ const NavMenu1 = styled.ul`
 
 		border-bottom: 5px solid rgba(0, 0, 0, 0);
 
-		transition: color 0.2s ease-out, border 0.2s ease-out;
+		transition: color 0.2s ease, border 0.2s ease;
 
 		@media (max-width: 1500px) {
 			font-size: 18px;

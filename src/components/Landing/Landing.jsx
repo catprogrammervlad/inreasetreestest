@@ -61,22 +61,8 @@ class landing extends Component {
 					blackoutHeader={this.state.blackoutHeader}
 				/>
 
-				<Block2 activate={this.state.Block2} />
-				<Block2 activate={this.state.Block2} />
-				<Block2 activate={this.state.Block2} />
-				<Block2 activate={this.state.Block2} />
-				<Block2 activate={this.state.Block2} />
-				<Block2 activate={this.state.Block2} />
-				{/* <Block1 activate={this.state.Block1} />
-				<Block2 activate={this.state.Block2} />
 				<Block1 activate={this.state.Block1} />
 				<Block2 activate={this.state.Block2} />
-				<Block1 activate={this.state.Block1} />
-				<Block2 activate={this.state.Block2} />
-				<Block1 activate={this.state.Block1} />
-				<Block2 activate={this.state.Block2} />
-				<Block1 activate={this.state.Block1} />
-				<Block2 activate={this.state.Block2} /> */}
 			</>
 		);
 	}
